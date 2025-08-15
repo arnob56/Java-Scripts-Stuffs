@@ -47,3 +47,36 @@ let Profile={
 
 let output = `This is ${Profile.instaProfile}'s profile.His post count is ${Profile.postCount}, followers are ${Profile.followers}, and following is ${Profile.following}.`;
 console.log(output);
+
+
+
+
+//str.toUpperCase() and toLowerCase()
+//str.trim() and str.trimStart() and str.trimEnd()
+let stWr = "   Hello World!   ";
+console.log(stWr.trim()); // "Hello World!"
+console.log(stWr.trimStart()); // "Hello World!   "     
+
+let str1 = "Hello World!";
+console.log(str1.toUpperCase()); // "HELLO WORLD!"
+
+
+
+//str.slice() and str.substring()
+let str2 = "Hello World!";
+console.log(str2.slice(0, 5)); // "Hello"
+
+//str.concat(str2)
+let str3 = "Hello";
+let str4 = " World!";
+let str5 = str3.concat(str4);
+console.log(str5); // "Hello World!"
+
+//str.replace(seacrhValue, replaceValue)
+let str6 = "Hello World!";
+let newStr = str6.replace("World", "JavaScript");  
+console.log(newStr); // "Hello JavaScript!"
+
+//str.charAt(index)
+let str7 = "Hello World!";
+console.log(str7.charAt(6)); 
