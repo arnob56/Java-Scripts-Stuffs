@@ -41,8 +41,9 @@ let Profile={
     instaProfile :"user123",
     postCount : 150,
     followers : 2000,
-    following : 180
-,}
+    following : 180,
+    isActive: true,
+    isVerified: false};
 
 let output = `This is ${Profile.instaProfile}'s profile.His post count is ${Profile.postCount}, followers are ${Profile.followers}, and following is ${Profile.following}.`;
 console.log(output);
